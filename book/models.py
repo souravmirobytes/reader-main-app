@@ -171,4 +171,4 @@ def update_content(sender, instance,created, **kwargs):
         obj=BookContent.objects.filter(id=instance.content).exists()
         obj.revision = instance.id
         obj.revision.save()
-    
+    abcd
